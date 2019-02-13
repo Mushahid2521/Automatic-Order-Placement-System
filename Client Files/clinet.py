@@ -11,7 +11,7 @@ import os
 
 def OrderTaker():
     s = socket.socket()
-    host = '192.168.43.208'
+    host = 'put your host IP address here'
     port = 5000
 
     while True:
