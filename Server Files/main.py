@@ -75,7 +75,7 @@ class MakeOrderReceipt():
 class SendOrderToKitchen():
     def __init__(self):
         # Initialize the socket to send the Data to Kitchen
-        self.host = '192.168.43.208'
+        self.host = 'put your host IP address here'
         self.port = 5000
         self.s = socket.socket()
         self.s.bind((self.host, self.port))
